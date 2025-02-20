@@ -1,10 +1,11 @@
 package Multithreading;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class EvenOddWithLock {
-    public static List<Integer> listNumbers = new CopyOnWriteArrayList();
+    public static List<Integer> listNumbers = new ArrayList<>();
 
     public EvenOddWithLock() {
     }

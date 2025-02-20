@@ -12,7 +12,7 @@ public class Parking {
     public static void main(String[] args) throws InterruptedException {
         for(int i = 1; i <= 7; ++i) {
             (new Thread(new Car(i))).start();
-            Thread.sleep(400L);
+            Thread.sleep(500L);
         }
 
     }
